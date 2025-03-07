@@ -1,0 +1,214 @@
+* {box-sizing: border-box;
+    margin:0;
+    padding:0;
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+body {font-family: "Inter", sans-serif;
+    color: #303030;
+}
+
+header {width: 1440px;
+    height: 70px;
+    background: #2965f1;
+    padding: 23px 1294px 23px 0px;
+
+    /* Стили для хедера */
+}
+
+header span {font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    /* Стили для текста в хедере IT-INCUBATOR */
+}
+
+.main-section {width: 1440px;
+    height: 1024px;
+    background: #fafaff;
+    padding: 60px 641px 356px 0px;
+    /* Стили для первой секции */
+}
+
+.main-title {font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+/* Стили для текста в первой секции */
+}
+
+.main-image {height: 715px;
+    width: 508px;
+}
+    /* Стили для изображения в первой секции */
+
+.about-section {fill: #fff;
+    font-family: "Inter", sans-serif;
+    width: 1440px;
+    height: 883px;
+    background-color: white;
+    padding: 100px 770px 100px 0px;
+}
+
+    /* Стили для второй секции */
+select {border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+    padding: 9px 12px 12px 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    appearance: none;
+    background-image: url("./assets/ep_arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    /* Стили для выпадающего списка */
+}
+.frameworks {width: 424px;
+    height: 111px;
+}
+
+.section-title {font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    /* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding-top: 25px;
+}
+    /* Стили для маркированного списка во второй секции */
+
+.li-frameworks {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: left 0px top 50%;
+}
+
+div.book{
+    width: 670px;
+    height: 111px;
+}
+
+.books-list {font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding: 25px 25px;
+    /* Стили для нумерованного списка во второй секции */
+}
+
+div.skill {width: 475px;
+    height: 73px;
+    padding: 25px 0px;
+}
+
+.label {font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding: 25px 0px;
+
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(48, 48, 48, 0.2);
+        border: 1px solid rgba(48, 48, 48, 0.3);
+        border-radius: 5px;
+        width: 330px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0)
+        /* Стили для односточного поля ввода текста */
+}
+
+div.nev-skill {width: 464px;
+    height: 36px;
+    padding: 0px 0px 60px;
+}
+
+.btn {border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+
+    /* Стили для кнопки */
+}
+
+.line {border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    /* Стили для линии */
+}
+
+table {width: 300px;
+    height: 196px;
+    margin: 60px 0px;
+    border-collapse: collapse;
+    border-color: #95A1BB;
+
+    th, td, tb {
+        border-color: #95A1BB;
+    }
+    /* Стили для таблицы */
+}
+
+th, td {font-family: "Inter", sans-serif;
+    padding: 11px 15px 12px;
+
+    /* Стили для ячеек таблицы */
+}
+
+th {font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: #303030;
+
+}
+
+tb {font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+
+}
+
+
+footer {width: 1440px;
+    height: 70px;
+    background: rgba(163, 167, 255, 0.3);
+    display: flex;
+    align-items: center;
+    /* Стили для футера */
+}
+
+.footer-link {font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    width: 78px;
+    height: 17px;
+
+    /* Стили для футера */
+}
