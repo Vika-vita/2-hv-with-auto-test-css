@@ -90,7 +90,8 @@ select {border: 1px solid rgba(48, 48, 48, 0.3);
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding: 0px 25px;
+    padding: 0px 20px;
+    list-style: none
 }
     /* Стили для маркированного списка во второй секции */
 
