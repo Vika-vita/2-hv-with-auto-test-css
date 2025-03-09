@@ -180,7 +180,7 @@ table {width: 300px;
 }
 
 th, td {font-family: "Inter", sans-serif;
-    padding: 15px 12px;
+
 
     /* Стили для ячеек таблицы */
 }
@@ -189,14 +189,14 @@ th {font-weight: 700;
         font-size: 14px;
         text-align: center;
         color: #303030;
-
+    padding: 15px 12px;
 
 }
 
 tb {font-weight: 400;
     font-size: 14px;
     color: #303030;
-
+    padding: 12px 15px
 }
 
 
